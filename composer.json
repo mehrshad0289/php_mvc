@@ -1,0 +1,16 @@
+{
+    "name": "webprog/php-mvc-project",
+    "authors": [
+        {
+            "name": "ali sheikh",
+            "email": "ali@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        },
+        "files": ["app/helper.php"]
+    },
+    "require": {}
+}
