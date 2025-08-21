@@ -39,7 +39,6 @@ if (isset($_SESSION['user_email'])) {
                 <div class="d-flex align-items-center">
 
                     <?php if (isLoggedIn()) : ?>
-                        <!--user مقدار email نداشت ارور ندهد -->
                         <a   href="<?= URL_ROOT ?>/users/profile">
                             <h6 if class="mb-0" style="color: black;"><?= $user->email ?></h6>
                         </a>
