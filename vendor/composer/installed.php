@@ -1,19 +1,19 @@
 <?php return array(
     'root' => array(
-        'name' => 'webprog/php-mvc-project',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'name' => 'ali/php-mvc-project',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '20c311a8c94fa7b8c21e6be1480bc34864b6cf77',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
-        'webprog/php-mvc-project' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
+        'ali/php-mvc-project' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '20c311a8c94fa7b8c21e6be1480bc34864b6cf77',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

@@ -1,9 +1,9 @@
 {
-    "name": "webprog/php-mvc-project",
+    "name": "ali/php-mvc-project",
     "authors": [
         {
-            "name": "ali sheikh",
-            "email": "ali@gmail.com"
+            "name": "Ali Basiri", 
+            "email": "ali@basiri.com"
         }
     ],
     "autoload": {

@@ -14,32 +14,17 @@ $path = trim(str_replace("php-mvc-project/", "", parse_url($_SERVER['REQUEST_URI
 $routes = [
     'GET' => [
         "" => ['controller' => 'app\controllers\HomeController', 'method' => 'index'],
-
-        "categories" => ['controller' => 'app\controllers\CategoryController', 'method' => 'index'],
-        "categories/create" => ['controller' => 'app\controllers\CategoryController', 'method' => 'create'],
-        "categories/edit/([0-9]+)" => ['controller' => 'app\controllers\CategoryController', 'method' => 'edit'],
-
-        "posts" => ['controller' => 'app\controllers\PostController', 'method' => 'index'],
-        "posts/create" => ['controller' => 'app\controllers\PostController', 'method' => 'create'],
-        "posts/edit/([0-9]+)" => ['controller' => 'app\controllers\PostController', 'method' => 'edit'],
-        "posts/search" => ['controller' => 'app\controllers\PostController', 'method' => 'search'],
-
         "users/register" => ['controller' => 'app\controllers\UserController', 'method' => 'register'],
         "users/login-form" => ['controller' => 'app\controllers\UserController', 'method' => 'loginForm'],
         "users/logout" => ['controller' => 'app\controllers\UserController', 'method' => 'logout'],
-
+        "users/profile" => ['controller' => 'app\controllers\UserController', 'method' => 'profile'],
+        "users/list" => ['controller' => 'app\controllers\UserController', 'method' => 'index'],
+        "users/search" => ['controller' => 'app\controllers\UserController', 'method' => 'search'],
     ],
     'POST' => [
-        "categories/store" => ['controller' => 'app\controllers\CategoryController', 'method' => 'store'],
-        "categories/update/([0-9]+)" => ['controller' => 'app\controllers\CategoryController', 'method' => 'update'],
-        "categories/delete/([0-9]+)" => ['controller' => 'app\controllers\CategoryController', 'method' => 'delete'],
-
-        "posts/store" => ['controller' => 'app\controllers\PostController', 'method' => 'store'],
-        "posts/update/([0-9]+)" => ['controller' => 'app\controllers\PostController', 'method' => 'update'],
-        "posts/delete/([0-9]+)" => ['controller' => 'app\controllers\PostController', 'method' => 'delete'],
-
         "users/store" => ['controller' => 'app\controllers\UserController', 'method' => 'store'],
         "users/login" => ['controller' => 'app\controllers\UserController', 'method' => 'login'],
+        "users/update-profile-and-image" => ['controller' => 'app\controllers\UserController', 'method' => 'updateProfileAndImage'],
     ]
 ];
 

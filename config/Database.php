@@ -17,6 +17,7 @@ class Database
 
             $this->conn = new PDO($dsn, $this->username, $this->password);
 
+                    
         }catch(PDOException $ex){
             echo "Connection Error: " . $ex->getMessage();
         }

@@ -7,7 +7,7 @@ class HomeController
 {
     public function index()
     {
-        $title = "webprog.io";
+        $title = "Welcome";
 
         $viewer = new Viewer();
         $viewer->render('/home/index.php', ['title' => $title]);
